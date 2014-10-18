@@ -18,6 +18,9 @@ namespace PetMatcher
                         "~/Scripts/jquery.unobtrusive*",
                         "~/Scripts/jquery.validate*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/bootstrapjs").Include(
+                        "~/Scripts/bootstrap.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                 "~/Scripts/angular.js",
                 "~/Scripts/angular-route.js"));
