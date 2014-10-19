@@ -7,17 +7,17 @@
 }
 
 .background-pic-container {
-    position: relative;
+    position: absolute;
     width: 100%;
-    height:100%;
+    height:75%;
     top:52px;
     overflow:hidden;
 }
 
 .background-pic {
     width: 100%;
-    height:50%;
     overflow: hidden;
+    
 }
 
 .search-panel {
@@ -36,4 +36,9 @@
 
 .home-search-input:active {
     opacity: 1;
+}
+
+.rest-of-content {
+    position:absolute;
+    top:80%;
 }
