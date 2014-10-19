@@ -245,6 +245,9 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="Images\cute-dog-blurry.png" />
+    <Content Include="Images\cute-dog.jpg" />
+    <Content Include="Images\home-page-dog.jpg" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular.js" />
