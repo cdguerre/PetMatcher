@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -30,7 +30,7 @@
                         <div class="form-group">
                             <input type="email" class="form-control" placeholder="Email">
                             <input type="password" class="form-control" placeholder="Password" />
-                        </div>
+            </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
                     <ul class="nav navbar-nav navbar-right">
@@ -38,7 +38,7 @@
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
-        </nav>
+                </nav>
     </header>
 
 
@@ -46,6 +46,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrapjs")
+    @Scripts.Render("~/bundles/angular")
     @RenderSection("scripts", required: false)
 </body>
 </html>
